@@ -1,0 +1,14 @@
+# data_ready.yaml
+# Absolute path to your dataset root (no leading slash on Windows)
+path: C:/Users/ASUS/Downloads/scratch_detection_assignment/scratch_detection_assignment/dataset
+
+# Subfolders under `path/`
+train: images/train
+val:   images/val
+
+# Number of classes
+nc: 1
+
+# Class names
+names:
+  0: scratch
